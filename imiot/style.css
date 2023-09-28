@@ -1,0 +1,98 @@
+body{
+    background-color:rgba(24,10,37,255);
+}
+.container{
+    background-color: rgba(24,10,37,255);
+}
+.navigations img{
+    max-width: 100%;
+    height: 30px;
+    
+}
+.navi-items{
+    font-size: medium;
+}
+.navigations{
+    text-align: center;
+    color: white;
+    font-size: medium;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    border-image: linear-gradient(to right, #0fb2d5, #3704de,rgb(31, 31, 124),rgb(92, 54, 157),#b651d4,rgb(247, 3, 214)); /* Define the gradient for the border */
+    border-image-slice: 1; /* Slice the border image into one section */
+}
+
+.navigations button{
+    border:none;
+    
+    border-radius: 15px;
+    color: white;
+    background-image: linear-gradient(to right, #911de4, #a023c5, #b62c98, #c4317b, #d2365c, #e23c3b, #e93f2f);
+}
+.navigations .gradienttext{
+    background: linear-gradient(to bottom, #0fb2d5,#0fb1d4, #0d62b3,#121a5a,#121353); /* Define the gradient background */
+    -webkit-background-clip: text; /* Clip the gradient to the text */
+    background-clip: text;
+    color: transparent; /* Make the text color transparent */
+    font-weight: bolder;
+    
+}
+
+.containertwo{
+    display: flex;
+    justify-content: center;
+    
+}
+.containertwo h2{
+    color: #a548fb;
+}
+.containertwo h1{
+    color: white;
+    font-weight: 700;
+    font-size: 70px;
+}
+.containertwo .gradient-head{
+    background: linear-gradient(to left, #ff03c0,#d508cc, #8916a6,#640e79, #ff03c0,#d508cc, #8916a6,#640e79,#ff03c0); /* Define the gradient background */
+    -webkit-background-clip: text; /* Clip the gradient to the text */
+    /* background: linear-gradient(to left, #fa01ba,#d508cc, #b410de,#ba0eda,#b410de,#fa01ba,#d508cc, #b410de,#fa01ba,#ba0eda,#b410de,#fa01ba); */
+    background-clip: text;
+    color: transparent; /* Make the text color transparent */
+    font-weight: bolder;
+}
+
+.second-button{
+   width: 23%;
+   padding: 5px;
+   border: none;
+   border-radius: 15px;
+   margin-top: 10px;
+   margin-bottom: 10px;
+   background-color: #500f90;
+   color: white;
+   font-size: large;
+    
+}
+
+.textcontent{
+    color: white;
+    text-align: left;
+    
+}
+.textcontent h5{
+    font-size: medium;
+    font-weight: 500;
+    padding-bottom: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.gradient-head2{
+
+    background: linear-gradient(to right,#f85ae0,rgb(0, 94, 255),#4c83f0,#092d76);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    /* font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 900;
+    font-size: xx-large; */
+
+}
